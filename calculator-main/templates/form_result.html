@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат вашей формы</title>
+</head>
+<body>
+    {% block content %}
+    <h1>Спасибо за заполнение нашей формы!</h1>
+    <p>Ваше имя: {{ name }}</p>
+    <p>Ваша электронная почта: {{ email}}</p>
+    <p>Ваш адрес: {{ address }}</p>
+    <p>Дата: {{ date }}</p>
+    {% endblock %}
+</body>
+</html>
